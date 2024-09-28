@@ -1,0 +1,37 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: 2px solid;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.485);
+}
+.registerbox {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/e-learn.jpg");
+}
+
+.btnregister {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnsignin,.btnlogin {
+  padding: 20px;
+  width: 40%;
+  color: white;
+  cursor: pointer;
+}
+
+.btnlogin {
+  background-color: rgb(158, 55, 55);
+}
+
+.btnsignin {
+  background-color: rgb(61, 61, 126);
+}
