@@ -35,3 +35,53 @@
 .btnsignin {
   background-color: rgb(61, 61, 126);
 }
+
+
+/* Signin css */
+.loginbox {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  font-family: sans-serif;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  background-color: white;
+}
+
+.loginform label {
+  margin-bottom: 5px;
+}
+
+.loginform input {
+  height: 25px;
+}
+.loginform input:focus{
+  height: 25px;
+  outline: none;
+  border: 2px solid rgba(83, 83, 186, 0.477);
+}
+.log input:focus{
+  height: 25px;
+  outline: none;
+  border: 2px solid rgba(186, 83, 83, 0.477);
+}
+.radio {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio div {
+  display: flex;
+  align-items: center;
+}
